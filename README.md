@@ -34,7 +34,7 @@ The `stop()` method should:
    * record the result of `System.nanoTime()` in
      an instance field called `stopTime`.
 
-Note: `stop()` before `start()` should have
+Note: calling `stop()` before `start()` should have
 no effect.
  
 ### `double elapsed()`
